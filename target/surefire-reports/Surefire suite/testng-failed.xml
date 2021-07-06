@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test">
+    <method-selectors>
+      <method-selector>
+        <selector-class name="org.apache.maven.surefire.testng.utils.MethodSelector" priority="10000"/>
+      </method-selector>
+    </method-selectors>
+    <classes>
+      <class name="testcases.testcase1"/>
+    </classes>
+  </test> <!-- Surefire test -->
+</suite> <!-- Failed suite [Surefire suite] -->
